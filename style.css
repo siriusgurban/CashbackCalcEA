@@ -1,0 +1,17 @@
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+
+  background-image: -webkit-linear-gradient(125deg, #f2291b, #f7db25, #84f527);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+-webkit-animation: hue 5s infinite linear;
+}@-webkit-keyframes hue {
+ from {
+   -webkit-filter: hue-rotate(0deg);
+ }
+ to {
+   -webkit-filter: hue-rotate(-360deg);
+ }
+}
